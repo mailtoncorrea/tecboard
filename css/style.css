@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "unbounded";
+  src: url("../fonts/Unbounded-Bold.ttf") format("truetype");
+  font-weight: 700; /*peso da fonte*/
+  font-style: normal; /*estilo da  fonte*/
+  font-display: swap; /*se caso a fonte nao carregar, vai mostrar o falbeck, ou seja, a sans-serif*/
+}
+@font-face {
+  font-family: "poppins";
+  src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo desktop */
+body {
+  background-color: #0e1014;
+  color: #ffffff;
+}
+header img {
+  display: block;
+  margin: 75px 0 0 360px;
+}
+h1 span {
+  color: #9747ff;
+}
+h1 {
+  font-size: 64px;
+  font-family: "unbounded", sans-serif;
+  text-align: center;
+  margin-top: 95px;
+}
+p {
+  font-family: "poppins", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin: 24px auto 0;
+  width: 792px;
+}
+
+a {
+  color: #ffffff;
+  font-family: "poppins", sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+  background-color: #9747ff;
+  display: block;
+  width: 340px;
+  height: 66px;
+  text-align: center;
+  line-height: 66px;
+  border-radius: 36px;
+  margin: 40px auto;
+}
+a:hover {
+  background-color: #8233e8;
+}
+section img {
+  display: block;
+  width: 792px;
+  height: 446px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  header img {
+    margin: 65px 0 0 60px;
+  }
+  p {
+    width: 648px;
+  }
+}
+
+@media (max-width: 375px) {
+  header img {
+    margin: 32px 0 0 16px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 20px;
+    width: 340px;
+  }
+  section img {
+    width: 340px;
+    height: 230px;
+  }
+  a {
+    font-size: 20px;
+    width: 251px;
+  }
+}
