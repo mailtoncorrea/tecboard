@@ -43,5 +43,5 @@ Este projeto tem foco educacional e representa minha evolução prática na cons
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/tecboard.git
+   git clone https://github.com/mailtoncorrea/tecboard.git
    ```
