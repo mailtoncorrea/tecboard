@@ -27,14 +27,15 @@ header img {
   display: block;
   margin: 75px 0 0 360px;
 }
-h1 span {
-  color: #9747ff;
-}
+
 h1 {
-  font-size: 65px;
+  font-size: 64px;
   font-family: "unbounded", sans-serif;
   text-align: center;
-  margin-top: 95px;
+  margin-top: 60px;
+}
+h1 span {
+  color: #9747ff;
 }
 p {
   font-family: "poppins", sans-serif;
@@ -88,12 +89,12 @@ section img {
     font-size: 20px;
     width: 340px;
   }
-  section img {
-    width: 340px;
-    height: 230px;
-  }
   a {
     font-size: 20px;
     width: 251px;
+  }
+  section img {
+    width: 340px;
+    height: 230px;
   }
 }
